@@ -1,0 +1,83 @@
+
+
+
+body {
+  background-color: rgba(230, 238, 188, 0.674);
+}
+
+#header-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#header-container h1 {
+  font-family: "Kalam", cursive;
+  font-size: 32px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+nav {
+  
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul li {
+  font-family: 'Oswald', sans-serif;
+  list-style: none;
+  display: inline;
+
+}
+
+nav ul li a {
+  font-size: 15px;
+  color: #333333;
+  text-decoration: none;
+  padding: 15px;
+  border-style: double;
+  border-color: rgb(236, 194, 143);
+
+}
+
+nav ul li a:hover {
+  background-color: #d54e69;
+  color: #ffffff;
+
+}
+
+
+
+
+.black {
+  color: #000000;
+}
+
+.green {
+  color: #00ff00;
+}
+
+.red {
+  color: #ff0000;
+}
+
+
+.main-content h2{
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  letter-spacing: 10px;
+  color: #000000;
+  font-family: 'Oswald', sans-serif;
+    
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  font-family: 'Work Sans', sans-serif;
+}
